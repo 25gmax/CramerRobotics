@@ -50,7 +50,7 @@ h1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: white;
 }
 
 .navbar li {
@@ -59,7 +59,7 @@ h1 {
 
 .navbar li a {
   display: block;
-  color: white;
+  color: black;
   padding: 16px;
   text-align: center;
   text-decoration: none;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .navbar li a:hover {
-  background-color: #111111;
+  background-color: #0091ea;
 }
 .main {
   padding-top: 1px;
