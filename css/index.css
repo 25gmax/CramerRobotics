@@ -10,7 +10,7 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url("/images/Capture.PNG");
+  background-color: white;
   color: #ff8300;
   font-family: "Star Jedi";
 }
