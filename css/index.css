@@ -154,7 +154,7 @@ a {
   .column1 {
   float: left;
   width: 40%;
-  padding: 50px;
+  padding: 60px 0 30px;
   background: #f2f2f2;
 }
   .column2 {
@@ -283,23 +283,38 @@ p {
   background: #3b5998;
   color: white;
 }
-
+.fa-facebook:hover {
+  background: white;
+  color: #3b5998;
+}
 /* Twitter icon*/
 .fa-twitter {
   background: #55acee;
   color: white;
 }
-
+.fa-twitter:hover {
+  background: white;
+  color: #55ACEE;
+}
 /* Instagram icon*/
 .fa-instagram {
   background: #C13584;
   color: white;
+}
+.fa-instagram:hover {
+  background: white;
+  color: #C13584;
 }
 /* YouTube icon*/
 .fa-youtube {
   background: #ff0000;
   color: white;
 }
+.fa-youtube:hover {
+  background: white;
+  color: #ff0000;
+}
+/* Envelope*/
 .fa-envelope {
     background: #0091ea;
     color: white;
