@@ -292,7 +292,7 @@ p {
 
 /* Instagram icon*/
 .fa-instagram {
-  background: #cd486b;
+  background: #C13584;
   color: white;
 }
 /* YouTube icon*/
@@ -303,4 +303,8 @@ p {
 .fa-envelope {
     background: #0091ea;
     color: white;
+}
+.fa-envelope:hover {
+  background: white;
+  color: #0091ea;
 }
