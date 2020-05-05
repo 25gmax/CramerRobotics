@@ -151,7 +151,12 @@ a {
   width: 40%;
   padding: 50px;
 }
-
+  .column1 {
+  float: left;
+  width: 40%;
+  padding: 50px;
+  background1: #f2f2f2;
+}
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
@@ -189,7 +194,7 @@ img.resize{
 /* properties for the about text paragraph on the front page */
 p {
   line-height: 1.2em !important;
-  color: white;
+  color: black;
   font-family: 'ZCOOL QingKe HuangYou';
   /*background: rgba(0, 0, 0, 0.5);*/
 }
