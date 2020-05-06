@@ -311,21 +311,21 @@ p {
 }
 /* Twitter icon*/
 .fa-twitter {
-  background: #55acee;
+  background: #00acee;
   color: white;
 }
 .fa-twitter:hover {
   background: white;
-  color: #55ACEE;
+  color: #00acee;
 }
 /* Instagram icon*/
 .fa-instagram {
-  background: #C13584;
+  background: #833AB4;
   color: white;
 }
 .fa-instagram:hover {
   background: white;
-  color: #C13584;
+  color: ##833AB4;
 }
 /* YouTube icon*/
 .fa-youtube {
