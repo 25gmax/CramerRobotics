@@ -288,6 +288,7 @@ p {
 .fa {
   padding: 20px;
   font-size: 30px;
+  display: inline;
   width: 30px;
   text-align: center;
   text-decoration: none;
