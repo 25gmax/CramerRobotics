@@ -1,20 +1,93 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html>
 <head>
   <meta charset="utf-8">
-<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/index.css"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
   <link href="http://allfont.net/allfont.css?fonts=star-jedi" rel="stylesheet" type="text/css" />
-<!--   <link rel="stylesheet" type="text/css" href="css/index.css"> -->
-  <title>Credits - E-Ville Bounty Hunters</title>
+    <title>Credits - E-Ville Bounty Hunters</title>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/index.js"></script>
-  <script src="js/gallery.js"></script>
-</head>
+<style>
+body {
+  margin: 0;
+}
 
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  border-radius: 3px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #0091ea;
+  border-radius: 3px;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: black;
+}
+.topnav a.active:hover {
+  background-color: #0091ea;
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+.topnav .icon:hover {
+  background-color: #0091ea;
+  color: white;
+}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+</head>
 <body>
 
-  <div include-html="header.html"></div>
+<div class="topnav" id="myTopnav">
+  <a href="/CramerRobotics/" class="active">Home</a>
+  <a href="/CramerRobotics/contact.html">Contact</a>
+  <a href="/CramerRobotics/sponsors.html">Sponsors</a>
+  <a href="/CramerRobotics/robots-and-awards.html">Robots and Awards</a>
+  <a href="https://robotics.e-hps.net/lab">our Lab</a>
+  <a href="/CramerRobotics/whomadethiswebsite.html">Who Made This Website</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 
   <!-- START OF PAGE -->
 <center><h1m>Meet the Website Coding Subteam!</h1m></center>
@@ -107,7 +180,16 @@ implemented for the website.</p>
 <div include-html="footer.html">
 
 </div>
-
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 <script>
   includeHTML();
 </script>
