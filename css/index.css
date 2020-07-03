@@ -196,7 +196,7 @@ a {
   .column2 {
   float: left;
   width: 40%;
-  border-radius: 8px;
+  border-radius: 15px;
   padding: 30px;
   background: #0242b8;
 }
@@ -344,7 +344,7 @@ p {
   width: 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 9px;
+  border-radius: 13px;
 }
 
 /* Add a hover effect if you want */
