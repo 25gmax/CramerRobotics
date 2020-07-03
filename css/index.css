@@ -76,6 +76,9 @@ h1 {
   display: inline-block;
   font-size: 20px;
 }
+.button:hover {
+    opacity: 0.2
+}
 .navbar li a:hover {
   background-color: #0091ea;
 }
