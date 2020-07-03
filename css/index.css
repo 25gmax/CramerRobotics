@@ -1,7 +1,7 @@
 /* loads custom font Star Jedi  */
 @font-face {
   /*font-family: "Star Jedi"; */
-  font-family: inherit;
+  font-family: "inherit";
   /*src: url("star-jedi_[allfont.net].ttf") format("truetype");*/
 }
 /* @import url(http://allfont.net/allfont.css?fonts=star-jedi); */
@@ -13,12 +13,12 @@ html, body {
   right: 0;
   background-color: white;
   color: #ff8300;
-  font-family: inherit;
+  font-family: "inherit";
 }
 
 /* Big text looks awesome with this font */
 h1 {
-  font-family: 'Star Jedi', arial;
+  font-family: 'inherit', arial;
   font-size: 48px;
 }
 
