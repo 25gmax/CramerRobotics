@@ -65,7 +65,17 @@ h1 {
   text-decoration: none;
   font-size: 98%;
 }
-
+.button {
+  background-color: #23272A; /* Black but not Black */
+  border: none;
+  border-radius: 28px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
 .navbar li a:hover {
   background-color: #0091ea;
 }
