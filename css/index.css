@@ -1,7 +1,8 @@
 /* loads custom font Star Jedi  */
 @font-face {
-  font-family: "Star Jedi";
-  src: url("star-jedi_[allfont.net].ttf") format("truetype");
+  /*font-family: "Star Jedi"; */
+  font-family: inherit;
+  /*src: url("star-jedi_[allfont.net].ttf") format("truetype");*/
 }
 /* @import url(http://allfont.net/allfont.css?fonts=star-jedi); */
 /* css for all properties */
