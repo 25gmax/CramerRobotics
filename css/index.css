@@ -1,7 +1,7 @@
 /* loads custom font Star Jedi  */
 @font-face {
   /*font-family: "Star Jedi"; */
-  font-family: "inherit";
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
   /*src: url("star-jedi_[allfont.net].ttf") format("truetype");*/
 }
 /* @import url(http://allfont.net/allfont.css?fonts=star-jedi); */
@@ -14,12 +14,12 @@ html, body {
   text-rendering: optimizeLegibility;
   background-color: white;
   color: #ff8300;
-  font-family: "inherit";
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 /* Big text looks awesome with this font */
 h1 {
-  font-family: 'inherit', arial;
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
   font-size: 48px;
 }
 
@@ -240,6 +240,14 @@ p {
   color: black;
   font-family: 'ZCOOL QingKe HuangYou';
   /*background: rgba(0, 0, 0, 0.5);*/
+}
+p-km {
+   margin-top: 40px;
+   font-size: 24px;
+   line-height: 140%;
+   color: white;
+   font-style: inherit;
+   font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 /* Custom Font sizes, helps with moble viwing */
