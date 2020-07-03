@@ -11,6 +11,7 @@ html, body {
   bottom: 0;
   left: 0;
   right: 0;
+  text-rendering: optimizeLegibility;
   background-color: white;
   color: #ff8300;
   font-family: "inherit";
@@ -250,9 +251,9 @@ h1-km {
   line-height: 120%;
   font-size: 48px;
   font-weight: inherit;
-  font-style: inherit;
-  font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-family: inherit;
+  /*font-style: inherit;*/
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  /*font-family: inherit;*/
   color: white;
 }
 h1i {
