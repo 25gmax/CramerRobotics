@@ -248,6 +248,9 @@ h1-km {
   font-weight: 700;
   line-height: 120%;
   font-size: 48px;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
   color: white;
 }
 h1i {
