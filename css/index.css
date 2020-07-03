@@ -12,7 +12,7 @@ html, body {
   right: 0;
   background-color: white;
   color: #ff8300;
-  font-family: "Star Jedi";
+  font-family: inherit;
 }
 
 /* Big text looks awesome with this font */
