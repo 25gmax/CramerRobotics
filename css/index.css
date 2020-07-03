@@ -265,6 +265,16 @@ h1-km {
   /*font-family: inherit;*/
   color: white;
 }
+h1-mk {
+  font-weight: 700;
+  line-height: 120%;
+  font-size: 48px;
+  /*font-weight: inherit;*/
+  font-style: inherit;
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  /*font-family: inherit;*/
+  color: black;
+}
 h1i {
   font-size: 2.5rem;
   color: #0242b8;
