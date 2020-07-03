@@ -78,7 +78,7 @@ h1 {
   font-size: 20px;
 }
 .button:hover {
-    opacity: 1.0;
+    opacity: 0.90;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .navbar li a:hover {
