@@ -244,8 +244,9 @@ p {
 p-km {
    margin-top: 40px;
    font-size: 24px;
-   line-height: 140%;
+   line-height: 140% !important;
    color: white;
+   vertical-align: baseline;
    font-style: inherit;
    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
@@ -333,7 +334,7 @@ p {
   width: 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
+  border-radius: 9px;
 }
 
 /* Add a hover effect if you want */
