@@ -214,6 +214,11 @@ img.resize{
 .column a {
   color: #ff8300;
 }
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+}
 
 /* Awards Right Side */
 /* .awardsR {
