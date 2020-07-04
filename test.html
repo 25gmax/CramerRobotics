@@ -23,6 +23,7 @@ body {
 .topnav a {
   float: left;
   display: block;
+  border-radius: 3px;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -32,6 +33,7 @@ body {
 
 .topnav a:hover {
   background-color: #0091ea;
+  border-radius: 3px;
   color: white;
 }
 
@@ -45,13 +47,15 @@ body {
 }
 .topnav .icon {
   display: none;
+}
+.topnav .icon:hover {
   background-color: #0091ea;
   color: white;
 }
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: center;
+    float: right;
     display: block;
   }
 }
@@ -74,23 +78,57 @@ body {
 <body>
 
 <div class="topnav" id="myTopnav">
-  <i class="fa fa-bars"></i>
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="#about">About</a>
-  <a href="#about">About</a>
-  <a href="#about">About</a>
+  <a href="/CramerRobotics/" class="active">Home</a>
+  <a href="/CramerRobotics/contact.html">Contact</a>
+  <a href="/CramerRobotics/sponsors.html">Sponsors</a>
+  <a href="/CramerRobotics/robots-and-awards.html">Robots and Awards</a>
+  <a href="https://robotics.e-hps.net/lab">our Lab</a>
+  <a href="/CramerRobotics/whomadethiswebsite.html">Who Made This Website</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
   </a>
 </div>
 
-<div style="padding-left:16px">
-  <h2>Responsive Topnav Example Top</h2>
-  <p>Resize the browser window to see how it works.</p>
-</div>
+  <!-- START OF PAGE -->
+  <style>
+    img-gm2 {
+      filter: blur(8px);
+      -webkit-filter: blur(8px);
+    }
+    </style>
+ <img-gm2><img alt="Front Page Img" src="https://raw.githubusercontent.com/25gmax/CramerRobotics/master/images/IMG_0677.JPG" style= "width:85%; height: 0%; position: relative; top: 0px;"></img-gm2>
 
+  <!-- <div class="row" style="align: center;">
+    <div class="column1">
+      <h1i><center>Who are we?*</center></h1i>
+      <p class="center">We are the E-Ville Bounty Hunters, Team 14623 based in Essexville, Michigan. The 2018 season was our team's rookie season. The students on the team all attend Cramer Junior High School and work countless hours to improve and perfect the robot with help from mentors. The program is non-profit and is made entirely to help give students an idea of what there is to offer in the STEM field. We look forward to many more years of competition to kick some nuts and bolts!</p>
+    </div>
+    <div class="column1">
+      <img alt="The Team" src="https://raw.githubusercontent.com/25gmax/CramerRobotics/master/images/IMG_0677.JPG" style= "width:100%; height: 100%; position: relative; top: 70px;">
+    <p></p>
+    </div>
+  </div> -->
+ <!-- SnapWidget -->
+<div class="row" style="align: center;">
+  <div class="column"></center>
+  <!-- Thank You Stuffs -->
+      <h2><center>Team 14623 would like to thank our <a href="CramerRobotics/sponsor.html">sponsors</a> and mentors for their continuous support.</center></h2>
+    </div>
+    <div class="column">
+      <h6><center>Click the Tech Challenge logo to learn more about what it is!</center></h6>
+      
+      <center><a href="https://www.firstinspires.org/robotics/ftc/what-is-first-tech-challenge"><!--<img src="images/Screenshot 2018-12-19 at 3.10.40 PM.png">*/--><button class="button">Learn More</button></a></center>
+    </div>
+  </div>
+
+
+  <!-- END OF PAGE -->
+
+</body>
+
+<div include-html="footer.html">
+
+</div>
 <script>
 function myFunction() {
   var x = document.getElementById("myTopnav");
@@ -101,6 +139,8 @@ function myFunction() {
   }
 }
 </script>
+<script>
+  includeHTML();
+</script>
 
-</body>
 </html>
