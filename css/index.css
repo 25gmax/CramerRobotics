@@ -270,6 +270,8 @@ h1-km {
   font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
   /*font-family: inherit;*/
   color: white;
+  position: absolute;
+  left: 20px;
 }
 h1-mk {
   font-weight: 700;
