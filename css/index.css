@@ -67,6 +67,26 @@ h1 {
   text-decoration: none;
   font-size: 98%;
 }
+contact-form1 {
+    background: #FFFFFF;
+}
+@media screen and (min-width: 64em)
+ contact-form1 {
+    width: calc(50% - 1.875rem);
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
+contact-row2 {
+    background: #F7F7F7;
+    font-size: 16px;
+    color: #464948;
+}
+@media screen and (min-width: 64em)
+ {
+    width: calc(50% - 1.875rem);
+    padding-top: 4em;
+    padding-bottom: 4em;
+}
 .button {
   background-color: #23272A; /* Black but not Black */
   border: none;
