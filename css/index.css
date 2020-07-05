@@ -196,6 +196,7 @@ a {
   .column-img3 {
   float: right;
   width: 50%;
+  transition: opacity .6s .1s,transform .6s ease,-webkit-transform .6s ease;
   padding: 70px 30px;
   background: #FFFFFF;
 }
@@ -209,6 +210,7 @@ a {
   float: left;
   width: 50%;
   padding: 70px 30px;
+      transition: opacity .6s .1s,transform .6s ease,-webkit-transform .6s ease;
   background: #f2f2f2;
 }
   .column2 {
@@ -278,6 +280,8 @@ p-km {
 p-mk {
   line-height: 143%;
   font-size: 24px;
+    transition: opacity .6s .1s,transform .6s ease,-webkit-transform .6s ease;
+
   /*font-weight: inherit;*/
   font-style: inherit;
   font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -305,6 +309,8 @@ h1-km {
   font-size: 48px;
   /*font-weight: inherit;*/
   font-style: inherit;
+    transition: opacity .6s .1s,transform .6s ease,-webkit-transform .6s ease;
+
   font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
   /*font-family: inherit;*/
   color: white;
