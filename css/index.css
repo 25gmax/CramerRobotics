@@ -598,11 +598,11 @@ p {
 .fa {
   padding: 20px;
   font-size: 30px;
-  display: inline;
+  display: flex;
   width: 30px;
   text-align: center;
   text-decoration: none;
-  border-radius: 13px;
+  /*border-radius: 13px;*/
 }
 
 /* Add a hover effect if you want */
@@ -652,8 +652,8 @@ p {
 }
 /* Envelope*/
 .fa-envelope {
-    background: #0091ea;
-    color: white;
+    background: #F2F2F2;
+    color: #0091ea;
     display: inline;
 }
 .fa-envelope:hover {
