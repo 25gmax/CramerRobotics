@@ -78,6 +78,14 @@ h1 {
   text-decoration: none;
   display: inline-flex;
   font-size: 20px;
+  -webkit-transition-property: background-color,color,-webkit-box-shadow;
+  transition-property: background-color,color,-webkit-box-shadow; 
+  transition-property: background-color,color,box-shadow; 
+  transition-property: background-color,color,box-shadow,-webkit-box-shadow; 
+  -webkit-transition-duration: .2s; */
+  transition-duration: .2s; */
+  webkit-transition-timing-function: ease-in-out; 
+  transition-timing-function: ease-in-out;
 }
 .button:hover {
     opacity: 0.90;
