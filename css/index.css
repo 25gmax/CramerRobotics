@@ -36,6 +36,35 @@ h1 {
   color: #e6e6e6;
 }
 
+@media screen and (min-width: 64em)
+#team_hardoced-page {
+    background: #f7f7f7;
+}
+
+#team_hardoced-page {
+    display: flex;
+    flex-flow: row wrap;
+    color: black;
+    background: #fff;
+}
+
+@media screen and (min-width: 64em)
+container122 {
+    width: calc(66.66667% - 1.875rem);
+    margin-right: .9375rem;
+    margin-left: .9375rem;
+    margin-right: 3.75rem;
+    margin-left: 3.75rem;
+    padding: 60px 0;
+    float: right;
+}
+.edgtf-content {
+    position: relative;
+    margin-top: 0;
+    z-index: 100;
+    background-color: #17161a;
+}
+
 .sponsor li {
   padding-left: 18%;
   color: #e6e6e6;
@@ -626,8 +655,9 @@ p {
   text-decoration: none;
   margin-bottom: 1em;
   height: 36px;
-  font-size: 1.5em;
-  line-height: 1.6em;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 300;
   margin-right: .5em;
   /*border-radius: 13px;*/
 }
