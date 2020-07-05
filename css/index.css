@@ -185,7 +185,7 @@ a {
   float: left;
   width: 40%;
   padding: 50px;
-    border-radius: 8px;
+  border-radius: 8px;
 }
   .column1 {
   float: right;
@@ -226,6 +226,20 @@ a {
   clear: both;
   display: table;
   text-align: center;
+}
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+  color: #f2f2f2;
+}
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+  text-align: center;
+  color: #FFFFFF;
 }
 img.resize{
   max-width: 50%;
@@ -298,6 +312,26 @@ p-mk {
 h1 {
   font-size: 2.5rem;
 }
+p-ks6sd {
+   margin-top: 24px;
+   font-size: 20px;
+   line-height: 32px !important;
+   color: #23272a;
+   vertical-align: baseline;
+   font-style: inherit;
+   font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+h2-14jwa {
+  font-weight: 700;
+  line-height: 120%;
+  font-size: 48px;
+  /*font-weight: inherit;*/
+  font-style: inherit;
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  /*font-family: inherit;*/
+  color: #23272a;
+}
+
 .container {
   position: relative;
   color: white;
