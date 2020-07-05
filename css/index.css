@@ -258,7 +258,7 @@ p-km {
    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 p-mk {
-  line-height: 140%;
+  line-height: 143%;
   font-size: 24px;
   /*font-weight: inherit;*/
   font-style: inherit;
@@ -269,7 +269,7 @@ p-mk {
   position: absolute;
   left: 33px;
   top: 141px;
-  right: 617px;
+  right: 891px;
 }
 
 /* Custom Font sizes, helps with moble viwing */
