@@ -404,7 +404,8 @@ h1-mk {
 @media (max-width: 480px) {
   column {
     padding 100px;
-    
+    width: 0%;
+    border-radius: 0%;
   }
 }
 h1i {
