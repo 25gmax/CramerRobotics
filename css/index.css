@@ -401,13 +401,13 @@ h1-mk {
     right: 420px;
   }
 }
-@media (min-width: 924px) {
+@media (max-width: 924px) {
   html {
     font-size: 19px;
     right: 285px;
   }
 }
-@media (min-width: 778px) {
+@media (max-width: 778px) {
   html {
     font-size: 18px;
     right: 215px;
