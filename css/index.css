@@ -395,6 +395,24 @@ h1-mk {
   /*font-family: inherit;*/
   color: black;
 }
+@media (min-width: 1200px) {
+  html {
+    font-size: 25px;
+    right: 615px;
+  }
+}
+@media (min-width: 1136px) {
+  html {
+    font-size: 23px;
+    right: 565px;
+  }
+}
+@media (min-width: 1046px) {
+  html {
+    font-size: 20px;
+    right: 562px;
+  }
+}
 @media (max-width: 992px) {
   html {
     font-size: 22px;
