@@ -87,7 +87,31 @@ h1 {
   transition-timing-function: ease-in-out; 
   transition-timing-function: ease-in-out;
 }
+.button1 {
+  background-color: #ff8300; /* Black but not Black */
+  border: none;
+  border-radius: 28px;
+  color: #23272A;
+  padding: 16px 32px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  font-size: 20px;
+  -webkit-transition-property: background-color,color,-webkit-box-shadow;
+  transition-property: background-color,color,-webkit-box-shadow; 
+  transition-property: background-color,color,box-shadow; 
+  transition-property: background-color,color,box-shadow,-webkit-box-shadow; 
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out; 
+  transition-timing-function: ease-in-out;
+}
 .button:hover {
+    opacity: 0.90;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button1:hover {
     opacity: 0.90;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
