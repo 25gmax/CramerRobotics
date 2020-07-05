@@ -247,7 +247,7 @@ p {
   /*background: rgba(0, 0, 0, 0.5);*/
 }
 p-km {
-   margin-top: 40px;
+   
    font-size: 24px;
    line-height: 140% !important;
    color: white;
@@ -256,6 +256,18 @@ p-km {
    left: 33px;
    top: 60px;
    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+p-mk {
+  line-height: 140%;
+  font-size: 24px;
+  /*font-weight: inherit;*/
+  font-style: inherit;
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+  /*font-family: inherit;*/
+  color: white;
+  position: absolute;
+  left: 33px;
+  top: 60px;
 }
 
 /* Custom Font sizes, helps with moble viwing */
