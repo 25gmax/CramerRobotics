@@ -227,14 +227,14 @@ a {
   display: table;
   text-align: center;
 }
-.row1::after {
+.row1 {
   content: "";
   clear: both;
   display: table;
   text-align: center;
   color: #f2f2f2;
 }
-.row2::after {
+.row2 {
   content: "";
   clear: both;
   display: table;
