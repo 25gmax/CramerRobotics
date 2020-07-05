@@ -470,14 +470,37 @@ h1-mk {
 }
 @media (max-width: 480px) {
   p-mk {
-    font-size: 8;
-    right: 24px;
-  }
-}
-@media (max-width: 480px) {
-  p-mk {
     font-size: 10px;
     right: 34px;
+  }
+}
+@media (max-width: 452px) {
+  p-mk {
+    font-size: 9px;
+    right: 1px;
+  }
+}
+@media (max-width: 427px) {
+  p-mk {
+    font-size: 7px;
+    right: 0px;
+  }
+}
+@media (max-width: 386px) {
+  p-mk {
+    font-size: 6px;
+    right: 0px;
+  }
+}
+@media (max-width: 348px) {
+  p-mk {
+    font-size: 4px;
+    right: 0px;
+  }
+}
+@media (max-width: 339px) {
+  h1-km {
+    font-size: 41px;
   }
 }
 @media (max-width: 480px) {
