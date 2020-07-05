@@ -413,6 +413,12 @@ h1-mk {
     right: 562px;
   }
 }
+@media (min-width: 1045px) {
+  p-mk {
+    font-size: 20px;
+    right: 500px;
+  }
+}
 @media (max-width: 992px) {
   p-mk {
     font-size: 22px;
