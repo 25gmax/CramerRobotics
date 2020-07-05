@@ -459,14 +459,14 @@ h1-mk {
 }
 @media (max-width: 480px) {
   p-mk {
-    font-size: 7px;
-    right: 0px;
+    font-size: 8;
+    right: 24px;
   }
 }
 @media (max-width: 480px) {
   p-mk {
-    font-size: 6px;
-    right: 0px;
+    font-size: 10px;
+    right: 34px;
   }
 }
 @media (max-width: 480px) {
