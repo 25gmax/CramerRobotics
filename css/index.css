@@ -82,8 +82,8 @@ h1 {
   transition-property: background-color,color,-webkit-box-shadow; 
   transition-property: background-color,color,box-shadow; 
   transition-property: background-color,color,box-shadow,-webkit-box-shadow; 
-  -webkit-transition-duration: .2s; */
-  transition-duration: .2s; */
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
   webkit-transition-timing-function: ease-in-out; 
   transition-timing-function: ease-in-out;
 }
@@ -239,14 +239,14 @@ a {
   content: "";
   clear: both;
   display: table;
-  text-align: center;
+  
   background-color: #f2f2f2;
 }
 .row2 {
   content: "";
   clear: both;
   display: table;
-  text-align: center;
+  
   background-color: #FFFFFF;
 }
 img.resize{
