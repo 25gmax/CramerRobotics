@@ -120,13 +120,16 @@ contact-row2 {
   background-color: #23272A; /* Black but not Black */
   border: none;
   border-radius: 28px;
+  flex-shrink: 0;
   color: white;
+  line-height: 24px;
   padding: 16px 32px;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
   display: inline-flex;
   font-size: 20px;
+  font-weight: 500;
   -webkit-transition-property: background-color,color,-webkit-box-shadow;
   transition-property: background-color,color,-webkit-box-shadow; 
   transition-property: background-color,color,box-shadow; 
@@ -139,6 +142,7 @@ contact-row2 {
 .button1 {
   background-color: #ff8300; /* Black but not Black */
   border: none;
+  width: 100%;
   border-radius: 28px;
   color: #23272A;
   padding: 16px 32px;
@@ -158,12 +162,17 @@ contact-row2 {
 }
 .button:hover {
     opacity: 0.90;
+    color: #ff8300;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 .button1:hover {
     opacity: 0.90;
     color: #FFFFFF;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+@media screen and (min-width: 768px)
+.button1 {
+    width: auto;
 }
 .navbar li a:hover {
   background-color: #0091ea;
