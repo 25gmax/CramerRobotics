@@ -116,6 +116,7 @@ contact-row2 {
     padding-top: 4em;
     padding-bottom: 4em;
 }
+
 .button {
   background-color: #23272A; /* Black but not Black */
   border: none;
@@ -277,6 +278,30 @@ a {
   width: 40%;
   padding: 50px;
   border-radius: 8px;
+}
+@media (max-width: 738px) {
+  column {
+    float: none;
+    width: 0%;
+  }
+}
+@media (max-width: 738px) {
+  img1 {
+    width: 110%;
+    left: -4%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+  }
+}
+@media (max-width: 738px) {
+  img1 {
+    width: 112%;
+    height: 100%;
+    position: relative;
+    top: 0px;
+    right: 7%;
+  }
 }
   .column1 {
   float: right;
