@@ -684,9 +684,8 @@ p {
 }
 /* Style all font awesome icons */
 .fa {
-  /*padding: 20px;*/
-  padding: .5em;
-  /*font-size: 30px;*/
+  padding: 20px;
+  font-size: 31px;
   display: flex;
   width: 38px;
   text-align: center;
@@ -694,7 +693,6 @@ p {
   text-decoration: none;
   margin-bottom: 1em;
   height: 36px;
-  font-size: 15px;
   color: white;
   line-height: 26px;
   font-weight: 300;
