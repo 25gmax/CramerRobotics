@@ -700,7 +700,6 @@ p {
   font-weight: 300;
   margin-right: .5em;
   /*border-radius: 13px;*/
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* Add a hover effect if you want */
@@ -713,7 +712,6 @@ p {
 .fa-facebook {
   background: #F7F7F7;
   color: #0091ea;
-  
 }
 
 /* Twitter icon*/
