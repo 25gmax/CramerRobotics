@@ -171,7 +171,7 @@ contact-row2 {
     color: #FFFFFF;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-@media screen and (min-width: 768px)
+@media screen and (max-width: 768px)
 .button1 {
     width: auto;
 }
@@ -282,8 +282,8 @@ a {
 }
 @media (max-width: 767px) {
   .column {
-    float: none;
-    width: 0%;
+  padding: 50px;
+  border-radius: 8px;
   }
 }
 @media (max-width: 767px) {
