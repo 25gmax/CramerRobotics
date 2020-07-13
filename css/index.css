@@ -284,6 +284,8 @@ a {
   .column {
   padding: 50px;
   border-radius: 8px;
+  float: unset;
+  width: fit-content;
   }
 }
 @media (max-width: 767px) {
