@@ -263,20 +263,6 @@ footer {
     color: white;
 }
 */
-img1 {
-  width: 105%; 
-  left: 25%; 
-  height: 100%; 
-  position: relative; 
-  top: 0px;
-}
-
-img2 {
- width: 110%;
- height: 100%;
- position: relative; 
- top: 0px;
-}
 
 .lispace {
   margin: 10px 0;
