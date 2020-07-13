@@ -699,12 +699,20 @@ p {
   line-height: 26px;
   font-weight: 300;
   margin-right: .5em;
+  -webkit-transition-property: background-color,color,-webkit-box-shadow;
+  transition-property: background-color,color,-webkit-box-shadow; 
+  transition-property: background-color,color,box-shadow; 
+  transition-property: background-color,color,box-shadow,-webkit-box-shadow; 
+  -webkit-transition-duration: .2s;
+  transition-duration: .2s;
+  justify-content: center;
+  transition-timing-function: ease-in-out; 
+  transition-timing-function: ease-in-out;
   /*border-radius: 13px;*/
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
   color: #ff8300;
 }
 
