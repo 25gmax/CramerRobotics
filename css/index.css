@@ -310,7 +310,7 @@ a {
   }
 }
 @media (max-width: 767px) {
-  img1 {
+  img2 {
     width: 112%;
     height: 100%;
     position: relative;
