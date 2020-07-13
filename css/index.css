@@ -263,6 +263,21 @@ footer {
     color: white;
 }
 */
+img1 {
+  width: 105%; 
+  left: 25%; 
+  height: 100%; 
+  position: relative; 
+  top: 0px;
+}
+
+img2 {
+ width: 110%;
+ height: 100%;
+ position: relative; 
+ top: 0px;
+}
+
 .lispace {
   margin: 10px 0;
 }
@@ -279,13 +294,13 @@ a {
   padding: 50px;
   border-radius: 8px;
 }
-@media (max-width: 738px) {
+@media (max-width: 767px) {
   column {
     float: none;
     width: 0%;
   }
 }
-@media (max-width: 738px) {
+@media (max-width: 767px) {
   img1 {
     width: 110%;
     left: -4%;
@@ -294,7 +309,7 @@ a {
     top: 0px;
   }
 }
-@media (max-width: 738px) {
+@media (max-width: 767px) {
   img1 {
     width: 112%;
     height: 100%;
