@@ -295,7 +295,7 @@ a {
   border-radius: 8px;
 }
 @media (max-width: 767px) {
-  column {
+  .column {
     float: none;
     width: 0%;
   }
