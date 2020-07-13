@@ -695,15 +695,18 @@ p {
   margin-bottom: 1em;
   height: 36px;
   font-size: 15px;
+  color: white;
   line-height: 26px;
   font-weight: 300;
   margin-right: .5em;
   /*border-radius: 13px;*/
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
+  color: #ff8300;
 }
 
 /* Facebook icon */
@@ -715,14 +718,14 @@ p {
 
 /* Twitter icon*/
 .fa-twitter {
-  background: #F7F7F7;
-  color: #0091ea;
+  background: transparent;
+  color: white;
  
 }
 /* Instagram icon*/
 .fa-instagram {
-  background: #F7F7F7;
-  color: #0091ea;
+  background: transparent;
+  color: white;
   
 }
 /* YouTube icon*/
