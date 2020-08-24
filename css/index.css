@@ -693,7 +693,6 @@ p {
   text-decoration: none;
   margin-bottom: 1em;
   height: 36px;
-  color: white;
   line-height: 26px;
   font-weight: 300;
   margin-right: .5em;
@@ -710,9 +709,7 @@ p {
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
-  color: #ff8300;
-}
+
 
 /* Facebook icon */
 .fa-facebook {
