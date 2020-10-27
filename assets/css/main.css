@@ -2736,6 +2736,8 @@ footer .copyright p {
 .modal-header .icon-close {
     font-size: 24px;
     cursor: pointer;
+    margin-left: 100%;
+	
 }
 
 .modal-body {
