@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'icons';
-    src: url('/fonts/icons/Icons-Lineb26cb26c.eot?v=2.4.0');
-    src: url('/fonts/icons/Icons-Lineb26cb26c.eot?v=2.4.0#iefix') format('embedded-opentype'), url('/fonts/icons/Icons-Lineb26cb26c.html?v=2.4.0') format('woff2'), url('/fonts/icons/Icons-Lineb26cb26c.ttf?v=2.4.0') format('truetype'), url('/fonts/icons/Icons-Lineb26cb26c.woff?v=2.4.0') format('woff'), url('/fonts/icons/Icons-Lineb26c-2b26c.html?v=2.4.0#icons') format('svg');
+    src: url('fonts/icons/Icons-Lineb26cb26c.eot?v=2.4.0');
+    src: url('fonts/icons/Icons-Lineb26cb26c.eot?v=2.4.0#iefix') format('embedded-opentype'), url('fonts/icons/Icons-Lineb26cb26c.html?v=2.4.0') format('woff2'), url('fonts/icons/Icons-Lineb26cb26c.ttf?v=2.4.0') format('truetype'), url('fonts/icons/Icons-Lineb26cb26c.woff?v=2.4.0') format('woff'), url('fonts/icons/Icons-Lineb26c-2b26c.html?v=2.4.0#icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
