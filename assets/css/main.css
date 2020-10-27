@@ -2704,6 +2704,18 @@ footer .copyright p {
 
 .modal-content.full {
     height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 24px 48px 120px 24px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 330px;
+    z-index: 9999;
+    overflow: hidden;
 }
 
 .modal-header {
