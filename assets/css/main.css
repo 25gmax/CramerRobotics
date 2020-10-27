@@ -1105,10 +1105,21 @@ header .navbar-expand .navbar-brand img {
 }
 
 .navbar-expand .navbar-nav .nav-item a:not(.btn) {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
-    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    font-size: 42px;
+    line-height: 1;
+    padding: 3px 8px;
+    background: white;
+    color: #434343!important;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: background-color .2s ease-out,color .2s ease-out;
+    transition: background-color .2s ease-out,color .2s ease-out;
 }
 
 .navbar-expand .navbar-nav .nav-link:not(.btn) {
