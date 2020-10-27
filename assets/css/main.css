@@ -2717,9 +2717,6 @@ footer .copyright p {
 }
 
 .modal-header {
-    align-items: center;
-    padding: 25px;
-    border: none;
     font-weight: 600;
     color: var(--primary-t-color);
     border-radius: 0;
