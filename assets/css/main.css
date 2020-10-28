@@ -1271,7 +1271,7 @@ header .navbar-expand .navbar-brand img {
     color: #23272a;
     color: var(--not-quite-black);
     display: inline-block;
-    width: calc(100% - 12px);
+    width: calc(100% - 0px);
     vertical-align: top;
     padding: 10px 5px;
     margin: 0 5px;
