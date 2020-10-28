@@ -2724,7 +2724,6 @@ footer .copyright p {
     box-sizing: border-box;
     width: 330px;
     z-index: 9999;
-    overflow: hidden;
 }
 
 .modal-header {
