@@ -1268,14 +1268,14 @@ header .navbar-expand .navbar-brand img {
 .menu .nav-link:not(.btn) {
     font-size: 1rem;
     font-weight: 400;
-    border: 1px solid var(--primary-l-color);
-    color: var(--primary-p-color);
+    color: #23272a;
+    color: var(--not-quite-black);
     display: inline-block;
     width: calc(100% - 12px);
     vertical-align: top;
     padding: 10px 5px;
     margin: 0 5px;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .odd .menu .nav-link:not(.btn) {
