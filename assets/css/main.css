@@ -2752,7 +2752,8 @@ footer .copyright p {
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 25px 25px 25px 0px;;
+    margin-top: -21%;
+    padding: 0px 25px 25px 0px;;
 }
 
 /* #endregion Modal */
