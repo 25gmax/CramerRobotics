@@ -2705,11 +2705,11 @@ footer .copyright p {
     border: none;
     border-radius: 0;
     overflow-x: hidden;
-    background-color: white;
+    background-color: white!important;
 }
 
 .odd .modal-content {
-    background-color: white;
+    background-color: white!important;
 }
 
 .modal-content.full {
