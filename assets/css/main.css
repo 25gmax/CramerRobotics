@@ -1336,8 +1336,7 @@ header .navbar-expand .navbar-brand img {
     align-items: center;
     padding: 8px 16px;
     color: #23272a;
-    color: var(--not-quite-black);
-    /* color: var(--primary-t-color); */
+    color: var(--primary-t-color); 
 }
 
 .odd .menu .nav-link:first-child {
