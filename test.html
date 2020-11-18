@@ -159,8 +159,23 @@ button.newr {
     <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
         <div class="modal-dialog modal-dialog-slideout" role="document">
             <div class="modal-content full">
+              <style>
+                .closeIcon-2dbyjK {
+    width: 24px;
+    height: 24px;
+    color: #23272a;
+    color: var(--not-quite-black);
+                }
+              </style>
                   <button class="newr" data-dismiss="modal">
-                 <i class="fas fa-times" data-dismiss="modal"></i>
+                    <svg class="closeIcon-2dbyjK" data-dismiss="modal" width="12" height="12" viewBox="0 0 12 12">
+                      <g fill="none" fill-rule="evenodd" aria-hidden="true">
+                      <path d="M0 0h12v12H0">
+                      </path>
+                      <path fill="currentColor" d="M9.5 3.205L8.795 2.5 6 5.295 3.205 2.5l-.705.705L5.295 6 2.5 8.795l.705.705L6 6.705 8.795 9.5l.705-.705L6.705 6"></path>
+                      </g>
+                    </svg>
+                 <!--<i class="fas fa-times" data-dismiss="modal"></i> -->
                   </button>
                 <div class="menu modal-body">
                     <div class="row w-100">
