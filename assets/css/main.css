@@ -1069,6 +1069,24 @@ header .navbar-expand .navbar-brand img {
 .navbar-expand .navbar-nav .nav-item a:not(.btn) {
     display: inline-block;
     cursor: pointer;
+    margin: 0px auto;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    line-height: 1;
+    padding: 20px 20px;
+    background: transparent;
+    color: #434343!important;
+    text-align: center;
+    -webkit-border-radius: 3px;
+    border-radius: 0px;
+    -webkit-transition: background-color .2s ease-out,color .2s ease-out;
+    transition: background-color .2s ease-out,color .2s ease-out;
+}
+
+.nav-item1 a:not(.btn) {
+    display: inline-block;
+    cursor: pointer;
     margin: 0 auto;
     width: auto;
     height: auto;
