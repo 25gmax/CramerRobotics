@@ -1093,7 +1093,7 @@ header .navbar-expand .navbar-brand img {
     font-size: 42px;
     line-height: 1;
     padding: 3px 8px;
-    background: transparent;
+    background: transparent!important;
     color: #434343!important;
     text-align: center;
     -webkit-border-radius: 3px;
