@@ -3160,14 +3160,6 @@ header {
     z-index: 5;
 }
 
-header .navbar-expand {
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    width: 100%;
-    padding: 20px 25px;
-}
-
 header .navbar-expand.relative {
     position: relative;
 }
