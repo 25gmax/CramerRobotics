@@ -152,7 +152,7 @@ table {
 
 a:not(.btn), a:link:not(.btn), a:visited:not(.btn), a:hover:not(.btn), a:active:not(.btn) {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.5;
     color: var(--primary-color);
     text-decoration: none;
