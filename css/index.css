@@ -409,7 +409,7 @@ p-km {
    vertical-align: baseline;
    font-style: inherit;
    left: 33px;
-   top: 60px;
+   top: 6px;
    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 p-mk {
@@ -425,7 +425,7 @@ p-mk {
   color: white;
   position: absolute;
   left: 33px;
-  top: 141px;
+  top: 172px;
   right: 891px;
 }
 
@@ -471,7 +471,7 @@ h1-km {
   color: white;
   position: absolute;
   left: 33px;
-  top: 56px;
+  top: 93px;
 }
 h1-mk {
   font-weight: 700;
