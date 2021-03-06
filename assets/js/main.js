@@ -35,7 +35,8 @@ jQuery(function ($) {
         var children = $(this).children('.nav-link');
         children.addClass('prevent');
     })
-
+})
+/*
     $(document).on('click', '#menu .nav-item .nav-link', function (event) {
 
         if($(this).hasClass('prevent')) {
@@ -51,7 +52,7 @@ jQuery(function ($) {
         }
     })
 })
-
+*/
 /*----------------------------------------------
 2. Navigation
 ----------------------------------------------*/ /*
