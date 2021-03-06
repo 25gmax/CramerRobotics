@@ -55,6 +55,20 @@ button.newr {
     color: var(--primary-t-color);
     background-color: white;
 }
+ .slideText {
+    font-weight: 400!important;
+    
+  }
+  .homeText {
+  color: #0091ea!important;
+  }
+  .activeWH { 
+    color: #FFF!important;
+  }
+  .webNav:hover {
+    background-color: #0091ea!important;
+    color: #FFF!important;
+}
   .linkActive-nav {
     background: #0091ea!important;
     background: var(--off-white);
@@ -77,14 +91,50 @@ button.newr {
 </head>
   <body>
  <!-- Header -->
-    <div class="topnav">
-  <a href="/CramerRobotics/">Home</a>
-  <a href="/CramerRobotics/contact.html">Contact</a>
-  <a href="/CramerRobotics/sponsor.html">Sponsors</a>
-  <a href="/CramerRobotics/robots-and-awards.html">Robots and Awards</a>
-  <a href="https://robotics.e-hps.net/lab">Our Lab</a>
-  <a href="/CramerRobotics/whomadethiswebsite.html">Who Made This Website</a>
-</div>
+    <header>
+      
+      <!-- NAV LINK AND MENU WILL BE IMPORTANT TO A TEST WITH THE OLD NAV X NEW NAV :)))-->
+
+        <!-- Navbar -->
+        <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
+            <div class="container header">
+                <!-- Navbar Items -->
+                <ul class="navbar-nav items ml-auto">
+                    <li class="nav-item">
+                        <a href="#slider" class="nav-link smooth-anchor linkActive-nav activeWH">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smooth-anchor webNav">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#videos" class="nav-link smooth-anchor webNav">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" class="nav-link smooth-anchor webNav">Robots and Awards</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#team" class="nav-link smooth-anchor webNav">Our Lab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link smooth-anchor webNav">Credits</a>
+                    </li>
+                </ul>
+                <!-- Navbar Icons -->
+                <ul class="navbar-nav icons ml-auto m-xl-0">
+                </ul>
+
+                <!-- Navbar Toggle -->
+                <ul class="navbar-nav toggle">
+                    <li class="nav-item1">
+                        <a href="#" class="nav-link" data-toggle="modal" data-target="#menu">
+                          <span class="fas fa-bars" class="nav-link" aria-hidden="true" data-toggle="modal" data-target="#menu"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
 
 
   <!-- START OF PAGE -->
@@ -195,12 +245,12 @@ button.newr {
                 <div class="menu modal-body">
                   <nav style="padding: inherit;margin-top: inherit;">
                   <a class="link-1bIkeG link-3XMvoR linkActive-LhgXW1" href="/">
-                    <span class="text-3U-SDd textSmall-2bq_Bu">Home</span></a>
-                  <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu">Contact</span></a>
-                  <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu">Sponsors</span></a>
-                  <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu">Robots and Awards</span></a>
-                                <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu">Our Lab</span></a>
-                  <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu">Credits</span></a>
+                    <span class="text-3U-SDd textSmall-2bq_Bu slideText homeText">Home</span></a>
+                  <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu slideText">Contact</span></a>
+                  <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu slideText">Sponsors</span></a>
+                  <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu slideText">Robots and Awards</span></a>
+                                <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu slideText">Our Lab</span></a>
+                  <a class="link-1bIkeG link-3XMvoR" href="/"><span class="text-3U-SDd textSmall-2bq_Bu slideText">Credits</span></a>
 
                     <div class="row w-100">
                         <div class="items p-0 col-12 text-center">
@@ -234,4 +284,3 @@ button.newr {
 </script>
 
 </html>
-
