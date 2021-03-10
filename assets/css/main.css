@@ -99,7 +99,7 @@ figure {
 /*============ FOOTER ==========*/
 .hlBFRk {
     position: relative;
-    border-bottom: 1px solid rgb(48, 49, 52);
+    border-bottom: 1px solid white;
     align-items: flex-start;
     flex-direction: row;
     border-bottom: 1px solid rgb(48, 49, 52);
@@ -125,7 +125,7 @@ figure {
     flex-direction: column;
     -webkit-box-pack: center;
     justify-content: center;
-    background-color: rgb(23, 24, 27);
+    background-color: #3498db;
     transition: all 0.15s ease-in-out 0s;
 }
 
@@ -136,7 +136,7 @@ figure {
     flex-direction: column;
     -webkit-box-pack: center;
     justify-content: center;
-    background-color: rgb(23, 24, 27);
+    background-color: #3498db;
     transition: all 0.15s ease-in-out 0s;
 }
 .eSjOZD {
@@ -146,7 +146,7 @@ figure {
     flex-direction: column;
     -webkit-box-pack: center;
     justify-content: center;
-    background-color: rgb(23, 24, 27);
+    background-color: #3498db;
     transition: all 0.15s ease-in-out 0s;
 }
 .kpjVPj {
@@ -186,7 +186,7 @@ figure {
 .gdGZhQ {
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: white!important;
     padding-bottom: 8px;
     transition: color 175ms ease-out 0s;
 }
@@ -201,6 +201,28 @@ figure {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 8px;
     transition: color 175ms ease-out 0s;
+}
+@media (max-width: 970px)
+.hlBFRk {
+    padding: 16px;
+    display: inline;
+}
+@media (max-width: 970px)
+.hlBFRk {
+    margin-top: 32px;
+    width: 95%;
+    flex-direction: column;
+    padding-top: 32px !important;
+    border-bottom: 0px !important;
+}
+@media (max-width: 970px)
+.bwxDch {
+    margin-bottom: 32px;
+    min-width: 300px !important;
+}
+@media (max-width: 970px)
+.kpjVPj {
+    width: 100%;
 }
 
 /* Mark the active step: */
