@@ -2,7 +2,7 @@
 /* Gilroy  : https://gist.github.com/mfd/09b70eb47474836f25a21660282ce0fd
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
 @import url('../../../cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css');
-/* #region Reset */
+/* #region Reset  TRY: FOOTER99*/
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -95,6 +95,112 @@ figure {
   border-radius: 50%;
   display: inline-block;
   opacity: 0.5;
+}
+/*============ FOOTER ==========*/
+.hlBFRk {
+    position: relative;
+    border-bottom: 1px solid rgb(48, 49, 52);
+    align-items: flex-start;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(48, 49, 52);
+    align-items: flex-start;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 64px;
+    max-width: 1600px;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: 64px;
+    padding-right: 72px;
+    padding-bottom: 16px;
+    padding-left: 72px;
+}
+.eSjOZD {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(23, 24, 27);
+    transition: all 0.15s ease-in-out 0s;
+}
+
+.eSjOZD {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(23, 24, 27);
+    transition: all 0.15s ease-in-out 0s;
+}
+.eSjOZD {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    background-color: rgb(23, 24, 27);
+    transition: all 0.15s ease-in-out 0s;
+}
+.kpjVPj {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 630px;
+    flex: 1 1 0%;
+}
+.cfUtWc {
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: 0.55px;
+    text-align: start;
+    color: white;
+    text-decoration: none;
+}
+.bwxDch {
+    opacity: 0.48;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    font-size: 14px !important;
+}
+.sZecb {
+    margin-bottom: 64px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sZecb {
+    margin-bottom: 64px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.gdGZhQ {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 8px;
+    transition: color 175ms ease-out 0s;
+}
+
+.buttona {
+    cursor: pointer;
+    text-decoration: none;
+}
+.hzBTNA {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 8px;
+    transition: color 175ms ease-out 0s;
 }
 
 /* Mark the active step: */
