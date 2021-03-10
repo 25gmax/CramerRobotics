@@ -231,6 +231,41 @@ figure {
     width: 100%;
 	}
 }
+@media (max-width: 670px) {
+.kpjVPj {
+    margin-inline-end: 23px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    flex-direction: column;
+    min-width: 245px;
+    padding-top: 0px;
+	}
+}
+@media (max-width: 670px) {
+.sZecb {
+    margin-bottom: 16px;
+	}
+}
+@media (max-width: 670px) {
+.gdGZhQ {
+    padding-bottom: 4px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+	}
+}
+@media (max-width: 670px) {
+.sZecb {
+    margin-bottom: 16px;
+	}
+}
+@media (max-width: 670px) {
+.hzBTNA {
+    padding-bottom: 4px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+	}
+}
+
 /* Mark the active step: */
 .step.active {
   opacity: 1;
