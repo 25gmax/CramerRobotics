@@ -215,7 +215,7 @@ figure {
     width: 95%;
     flex-direction: column;
     padding-top: 32px !important;
-    border-bottom: 0px !important;
+    border-bottom: -1px !important;
 	}
 }
 @media (max-width: 1080px) { 
@@ -298,7 +298,6 @@ a:not([href]) i:hover {
 }
 
 p {
-    margin: 1.5rem 0;
     font-size: var(--p-size);
     font-weight: var(--p-weight);
     line-height: 1.5;
