@@ -220,7 +220,6 @@ figure {
 }
 @media (max-width: 1080px) { 
 .bwxDch {
-    margin-bottom: 32px;
     min-width: 300px !important;
 	}
 }
