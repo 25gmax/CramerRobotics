@@ -102,7 +102,7 @@ figure {
     border-bottom: 1px solid white;
     align-items: flex-start;
     flex-direction: row;
-    border-bottom: 1px solid rgb(48, 49, 52);
+    border-bottom: 1px solid white;
     align-items: flex-start;
     display: flex;
     -webkit-box-align: center;
@@ -198,7 +198,7 @@ figure {
 .hzBTNA {
     font-size: 14px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: white!important;
     padding-bottom: 8px;
     transition: color 175ms ease-out 0s;
 }
