@@ -202,12 +202,12 @@ figure {
     padding-bottom: 8px;
     transition: color 175ms ease-out 0s;
 }
-@media (max-width: 970px)
+@media (max-width: 1080px)
 .hlBFRk {
     padding: 16px;
     display: inline;
 }
-@media (max-width: 970px)
+@media (max-width: 1080px)
 .hlBFRk {
     margin-top: 32px;
     width: 95%;
@@ -215,12 +215,12 @@ figure {
     padding-top: 32px !important;
     border-bottom: 0px !important;
 }
-@media (max-width: 970px)
+@media (max-width: 1080px)
 .bwxDch {
     margin-bottom: 32px;
     min-width: 300px !important;
 }
-@media (max-width: 970px)
+@media (max-width: 1080px)
 .kpjVPj {
     width: 100%;
 }
