@@ -285,13 +285,12 @@ a {
   .column {
   border-radius: 8px;
   float: unset;
-  width: fit-content;
   }
 }
 @media (max-width: 767px) {
   img1 {
     width: 110%;
-    left: -4%;
+    margin-left: -67px;
     height: 100%;
     position: relative;
     top: 0px;
