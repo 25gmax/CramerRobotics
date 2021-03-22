@@ -1,5 +1,5 @@
 $errors = '';
-$myemail = 'yourname@website.com';//<-----Put Your email address here.
+$myemail = '25glocksinem@e-hps.net';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
