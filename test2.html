@@ -138,29 +138,76 @@ button.newr {
 
 
  <!-- START OF PAGE -->
-<center>
-   <h1-mk>Connect With Us</h1-mk>
-  <a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/nick.bountyhunters.9" rel="noopener noreferrer"><p>Facebook</p></a>
-  <a class="fa fa-twitter" target="_blank" href="https://twitter.com/BountyVille" rel="noopener noreferrer"><p>Twitter</p></a>
-  <a class="fa fa-instagram" target="_blank" href="https://www.instagram.com/evillebounty/" rel="noopener noreferrer"><p>Instagram</p></a>
-  <a class="fa fa-youtube-play" target="_blank" href="https://www.youtube.com/channel/UCVFjEA7M9ORhBnrNv9OIgVA" rel="noopener noreferrer"><p>YouTube</p></a>
-  <a class="fa fa-envelope" target="_blank" href="mailto:GarberRobotics@e-hps.net" rel="noopener noreferrer"><p>Email</p></a>
-   <h6>Problem with the website:</h6>
-  <p-km>Please Email <a href="mailto:21glocksinem@e-hps.net">21glocksinem@e-hps.net</a></p-km> 
- <a class="button downloadButton-111eh6 twoButtons-3Bk8eU" href="https://twitter.com/BountyVille">
-	 <fa width="24" height="24" viewBox="0 0 24 24" class="fa fa-twitter">
-		 <g fill="currentColor">
-			 <path d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z"></path>
-	 <path d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z"></path>
-	 </g>
-	 </fa>
-	 Twitter
-	</a>
-	<center><a href="https://twitter.com/BountyVille" class="fa fa-twitter"><button class="button">Twitter</button></a>
-	<a href="https://www.instagram.com/evillebounty/" class="fa fa-instagram"><button class="button">Instagram</button></a>
-	</center>
 
-	      				
+<form method="post" name="contact_form"
+action="contact-form-handler.php">
+    Your Name:
+    <input type="text" name="name">
+
+    Email Address:
+    <input type="text" name="email">
+
+    Message:
+    <textarea name="message"></textarea>
+
+    <input type="submit" value="Submit">
+</form>	
+	  
+<?php $errors = '';
+$myemail = '25glocksinem@e-hps.net';
+if(empty($_POST['name'])  || 
+   empty($_POST['email']) || 
+   empty($_POST['message']))
+{
+    $errors .= "\n Error: all fields are required";
+}
+
+$name = $_POST['name']; 
+$email_address = $_POST['email']; 
+$message = $_POST['message']; 
+
+if (!preg_match(
+"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
+$email_address))
+{
+    $errors .= "\n Error: Invalid email address";
+}
+
+if( empty($errors))
+
+{
+
+$to = $myemail;
+
+$email_subject = "Contact form submission: $name";
+
+$email_body = "You have received a new message. ".
+
+" Here are the details:\n Name: $name \n ".
+
+"Email: $email_address\n Message \n $message";
+
+$headers = "From: $myemail\n";
+
+$headers .= "Reply-To: $email_address";
+
+mail($to,$email_subject,$email_body,$headers);
+
+//redirect to the 'thank you' page
+
+header('Location: contact-form-thank-you.html');
+
+}
+?>
+
+	 <script language="JavaScript">
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+  "Please enter a valid email address");
+</script>
+	  
 <!-- END OF PAGE -->
       <!-- Modal [responsive menu] -->
     <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
