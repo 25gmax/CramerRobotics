@@ -274,9 +274,6 @@ button.newr {
             </div>
         </div>
   </div>
-    <div id="loader">
-      <p> TESTINGGGG </p>
-    </div>
     <style> .loader {
   position: fixed;
   background-color: #FFF;
@@ -303,13 +300,15 @@ button.newr {
     <script src="../kit.fontawesome.com/86323babb4.js" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
     <div include-html="footer2.html">
-
+  <div id="loader">
+      <p> TESTINGGGG </p>
+    </div>
 </body>
-
-<script>
-  $(window).load(function() {      
+<script>$(window).load(function() {      
   $("#loader").fadeOut("fast");  
 });
+    </script>
+<script>
   includeHTML();
 </script>
 
