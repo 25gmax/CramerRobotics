@@ -133,12 +133,28 @@ button.newr {
         </nav>
 	    <style>
 .socialSignInButton.twitterSignInButton {
-    background-color: #1da1f2;
-    color: #fcfcfb;
+    background-color: transparent;
+    color: #1da1f2;
+    border-color: #1da1f2;
+    border-radius: 28px;
+    border-width: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
+.socialSignInButtonIG.iGSignInButton {
+    background-color: transparent;
+    color: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-color: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 28px;
+    border-width: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+		    }
 .socialSignInButton {
     margin-bottom: 8px;
 }
+		    
 .button {
     position: relative;
     display: flex;
@@ -215,12 +231,15 @@ fieldset, img {
     </header>
      <!-- START OF PAGE -->
   <div class="row">
-	  <div class="column">
-<button class="button _socialLoginTwitter socialSignInButton twitterSignInButton" type="button"><img class="socialBadge" img="" src="https://d12qyuqyvqjkw5.cloudfront.net/v2/images/static/login/socialsignin/twitter-badge.405091af.svg"><span>Sign in with Twitter</span></button>
-	       
+	  <div class="column" style="padding-left: 109px;padding-right: 109px;">
+<button class="button _socialLoginTwitter socialSignInButton twitterSignInButton" type="button"><span>Twitter</span>
+		      </button>
 	       </div>
 	</div>
-	  
+	  <button class="button _socialLoginTwitter socialSignInButtonIG iGSignInButton" type="button"><span>Instagram</span>
+		      </button>
+	       </div>
+	</div>
 	  
 	  
 	  
