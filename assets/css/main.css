@@ -811,6 +811,11 @@ aside {
 .row {
     margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
+    margin-right: 0px;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .vh-100 {
@@ -827,13 +832,13 @@ aside {
     clear: both;
 }
 
-/* #endregion Section */
+/*  Section */
 
 /*----------------------------------------------
-4. Helper Class
+4.  Class
 ----------------------------------------------*/
 
-/* #region Helper Class */
+/* # Helper Class */
 
 .intro {
     margin-bottom: 50px;
