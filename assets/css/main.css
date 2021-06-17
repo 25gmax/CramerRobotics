@@ -357,7 +357,7 @@ h1 {
     font-weight: var(--h1-weight);
     line-height: 1.2;
     font-family: 'Titillium Web';
-    color: var(--primary-color);
+    color: #0091ea!important;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
 }
@@ -435,7 +435,7 @@ h6 {
     font-weight: 600;
     line-height: 1.2;
     font-family: 'Titillium Web';
-    color: var(--primary-t-color);
+    color: #23272a;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
 }
