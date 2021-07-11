@@ -111,18 +111,33 @@ h11 {
     -ms-word-wrap: break-word;
     word-wrap: break-word;
 }
-.h1Under:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 1px;
-    left: 50%;
-    position: absolute;
-    background: #23272a;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-    border-radius: 56px;
+.h1Under {
+  color: #FF0000;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px 2px 20px;
+  position: relative;
+  margin-bottom: 0px!important;
+  cursor: default;
+}
+.h1Under:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #23272a;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  border-radius: 56px;
+}
+.h1Under:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
   .modal-body {
   padding: 0px 0px 25px 0px!important;
