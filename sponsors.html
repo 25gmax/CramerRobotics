@@ -390,9 +390,17 @@ h11 {
         border-width: 8px;
         padding: 35px 50px;
         margin-bottom: 56px;
-        padding-bottom: 204px;
+        padding-bottom: 50px;
         border-color: #0091ea;
       }
+	     .zoom {
+  transition: transform .2s; /* Animation */  
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+  box-shadow: 0px 0px 20px black;
+}
       @media (max-width: 767px){
 .awards-boxin {
     padding-bottom: 136px!important;
@@ -452,13 +460,16 @@ h11 {
     <div class="column13">
        <div class="awards-boxin">
 	       <div class="colorH1">
+		       
     <h1 style="width:100%">FRC Team 5216 the E-ville Empire</h1></div>
-		<img src="images/Logoc.jpg" style="width: 75%;height: auto;border-radius: 23px;"></img>
+	       <div class="zoom">
+		       <img src="images/Logoc.jpg" style="width: 75%;height: auto;border-radius: 23px;"></img></div>
 	  </div>
        <div class="awards-boxin" style="margin-bottom: 0px!important;">
 	       <div class="colorH1">
 		       <h1 style="width:100%">Bay Composites</h1></div>
- 		<img src="images/Bay_Composites_large.jpg" style="width: 75%;height: auto;border-radius: 23px;"></img>
+	       	       <div class="zoom">
+ 		<img src="images/Bay_Composites_large.jpg" style="width: 75%;height: auto;border-radius: 23px;"></img></div>
 	  </div>
       <!-- <p><center><a href="https://robotics.e-hps.net/">FRC Team 5216 the E-ville Empire</a> and Bay Composites</center></p> -->
     </div> 
