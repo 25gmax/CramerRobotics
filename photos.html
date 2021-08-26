@@ -162,383 +162,221 @@ button.newr {
     </header>
 <!-- Start of Page -->
 
-    
-<div id="wrapper">
-   
-   	  <h1>Simple Image Slider</h1>
-      <h2>A Pen by <a href="http://www.andrecortellini.com" target="_blank">André Cortellini</a></h2>
-        
-   	  <div id="slider-wrap">
-      	  <ul id="slider">
-          	 <li data-color="#1abc9c">
-                <div>
-                    <h3>Slide #1</h3>
-                    <span>Sub-title #1</span>
-                </div>                
-                <i class="fa fa-image"></i>
-             </li>
-             
-             <li data-color="#3498db">
-                <div>
-                    <h3>Slide #2</h3>
-                    <span>Sub-title #2</span>
-                </div>
-                <i class="fa fa-gears"></i>
-             </li>
-             
-             <li data-color="#9b59b6">
-                <div>
-                    <h3>Slide #3</h3>
-                    <span>Sub-title #3</span>
-                </div>
-                <i class="fa fa-sliders"></i>
-             </li>
-             
-             <li data-color="#34495e">
-                <div>
-                    <h3>Slide #4</h3>
-                    <span>Sub-title #4</span>
-                </div>
-                <i class="fa fa-code"></i>
-             </li>
-             
-             <li data-color="#e74c3c">
-                <div>
-                    <h3>Slide #5</h3>
-                    <span>Sub-title #5</span>
-                </div>
-                <i class="fa fa-microphone-slash"></i>
-             </li>
-             
-             
-          </ul>
-          
-           <!--controls-->
-          <div class="btns" id="next"><i class="fa fa-arrow-right"></i></div>
-          <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>
-          <div id="counter"></div>
-          
-          <div id="pagination-wrap">
-            <ul>
-            </ul>
-          </div>
-          <!--controls-->  
-                 
-      </div>
-  
-   </div>
-    
-    <style>
-    *{margin:0; padding:0; list-style:none;}
-a{text-decoration:none;	color:#666;}
-a:hover{color:#1bc1a3;}
-body, hmtl{background: #ecf0f1; font-family: 'Anton', sans-serif;}
-
-
-#wrapper{
-	width:600px;
-	margin:50px auto;
-	height:400px;
-	position:relative;
-	color:#fff;
-	text-shadow:rgba(0,0,0,0.1) 2px 2px 0px;	
+ <!-- slider -->
+<div class="slider">
+  <!-- slide -->
+  <ul>
+    <li class="active"></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <ol>
+    <!-- point -->
+    <li class="active"><i class="fa fa-circle-o"></i></li>
+    <li><i class="fa fa-circle-o"></i></li>
+    <li><i class="fa fa-circle-o"></i></li>
+    <li><i class="fa fa-circle-o"></i></li>
+    <li><i class="fa fa-circle-o"></i></li>
+    <!-- playpause -->
+    <i class="fa playpause fa-pause-circle-o" title="pause"></i>
+  </ol>
+  <!-- controll -->
+  <span class="controll active"></span>
+  <span class="controll"></span>
+</div>
+	  
+	  
+	  
+	  <style>
+		  .slider {
+  width: 100%;
+  max-width: 750px;
+  padding: 0 50px;
+  margin: 25px auto 0;
+  height: 350px;
+  position: relative;
 }
-
-#slider-wrap{
-	width:600px;
-	height:400px;
-	position:relative;
-	overflow:hidden;
+.slider ul, .slider ul li {
+  width: 100%;
+  height: 100%
 }
-
-#slider-wrap ul#slider{
-	width:100%;
-	height:100%;
-	
-	position:absolute;
-	top:0;
-	left:0;		
+.slider ul {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px
 }
-
-#slider-wrap ul#slider li{
-	float:left;
-	position:relative;
-	width:600px;
-	height:400px;	
+.slider ul li {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-size: cover; /* semon #f98686 */
+  background-position: center;
+  color: #fff;
+  font-family: serif;
 }
-
-#slider-wrap ul#slider li > div{
-	position:absolute;
-	top:20px;
-	left:35px;	
+.slider ul li:first-of-type {
+  background-image: url("http://www.misr5.news/wp-content/uploads/2015/10/6957804-girl-children-blonde-blue-eyes-autumn-mood.jpg")
 }
-
-#slider-wrap ul#slider li > div h3{
-	font-size:36px;
-	text-transform:uppercase;	
+.slider ul li:nth-of-type(2) {
+  background-image: url("http://favim.com/orig/201107/19/cute-flowers-girl-pink-pretty-Favim.com-110225.jpg")
 }
-
-#slider-wrap ul#slider li > div span{
-	font-family: Neucha, Arial, sans serif;
-	font-size:21px;
+.slider ul li:nth-of-type(3) {
+  background-image: url("http://www.tsitut.net/wp-content/uploads/2016/04/born-to-stand-out.jpg")
 }
-
-#slider-wrap ul#slider li i{
-	text-align:center;
-	line-height:400px;
-	display:block;
-	width:100%;
-	font-size:90px;	
+.slider ul li:nth-of-type(4) {
+  background-image: url("https://37.media.tumblr.com/tumblr_lxkb5dtDuF1r5o9ano1_500.jpg")
 }
-
-
-/*btns*/
-.btns{
-	position:absolute;
-	width:50px;
-	height:60px;
-	top:50%;
-	margin-top:-25px;
-	line-height:57px;
-	text-align:center;
-	cursor:pointer;	
-	background:rgba(0,0,0,0.1);
-	z-index:100;
-	
-	
-	-webkit-user-select: none;  
-	-moz-user-select: none; 
-	-khtml-user-select: none; 
-	-ms-user-select: none;
-	
-	-webkit-transition: all 0.1s ease;
-	-moz-transition: all 0.1s ease;
-	-o-transition: all 0.1s ease;
-	-ms-transition: all 0.1s ease;
-	transition: all 0.1s ease;
+.slider ul li:last-of-type {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/03/08/5f/03085f3adecf31a0ded89aec58e5bbed.jpg")
 }
-
-.btns:hover{
-	background:rgba(0,0,0,0.3);	
+.slider .controll {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 44%;
+  border-bottom: 3px solid #333;
+  border-left: 3px solid #333;
+  cursor: pointer;
+  color: #333
 }
-
-#next{right:-50px; border-radius:7px 0px 0px 7px;}
-#previous{left:-50px; border-radius:0px 7px 7px 7px;}
-#counter{
-	top: 30px; 
-	right:35px; 
-	width:auto;
-	position:absolute;
+.slider .controll:first-of-type {
+  transform: rotate(45deg);
+  left: 20px
 }
-
-#slider-wrap.active #next{right:0px;}
-#slider-wrap.active #previous{left:0px;}
-
-
-/*bar*/
-#pagination-wrap{
-	min-width:20px;
-	margin-top:350px;
-	margin-left: auto; 
-	margin-right: auto;
-	height:15px;
-	position:relative;
-	text-align:center;
+.slider .controll:last-of-type {
+  transform: rotate(225deg);
+  right: 20px
 }
-
-#pagination-wrap ul {
-	width:100%;
+.slider .controll:hover, .slider .controll.active {
+  border-color: #f98686 /* rose */
 }
-
-#pagination-wrap ul li{
-	margin: 0 4px;
-	display: inline-block;
-	width:5px;
-	height:5px;
-	border-radius:50%;
-	background:#fff;
-	opacity:0.5;
-	position:relative;
-  top:0;
-  
-  
+.slider ol {
+  text-align: center;
+  padding-top: 10px
 }
-
-#pagination-wrap ul li.active{
-  width:12px;
-  height:12px;
-  top:3px;
-	opacity:1;
-	box-shadow:rgba(0,0,0,0.1) 1px 1px 0px;	
+.slider ol li {
+  display: inline-block;
+  margin-right: 5px;
 }
-
-
-
-
-/*Header*/
-h1, h2{text-shadow:none; text-align:center;}
-h1{	color: #666; text-transform:uppercase;	font-size:36px;}
-h2{ color: #7f8c8d; font-family: Neucha, Arial, sans serif; font-size:18px; margin-bottom:30px;} 
-
-
-
-
-/*ANIMATION*/
-#slider-wrap ul, #pagination-wrap ul li{
-	-webkit-transition: all 0.3s cubic-bezier(1,.01,.32,1);
-	-moz-transition: all 0.3s cubic-bezier(1,.01,.32,1);
-	-o-transition: all 0.3s cubic-bezier(1,.01,.32,1);
-	-ms-transition: all 0.3s cubic-bezier(1,.01,.32,1);
-	transition: all 0.3s cubic-bezier(1,.01,.32,1);	
+.slider ol .fa {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  font-weight: normall
 }
-    </style>
-    
-    <script>
-      //current position
-var pos = 0;
-//number of slides
-var totalSlides = $('#slider-wrap ul li').length;
-//get the slide width
-var sliderWidth = $('#slider-wrap').width();
-
-
-$(document).ready(function(){
-	
-	
-	/*****************
-	 BUILD THE SLIDER
-	*****************/
-	//set width to be 'x' times the number of slides
-	$('#slider-wrap ul#slider').width(sliderWidth*totalSlides);
-	
-    //next slide 	
-	$('#next').click(function(){
-		slideRight();
-	});
-	
-	//previous slide
-	$('#previous').click(function(){
-		slideLeft();
-	});
-	
-	
-	
-	/*************************
-	 //*> OPTIONAL SETTINGS
-	************************/
-	//automatic slider
-	var autoSlider = setInterval(slideRight, 3000);
-	
-	//for each slide 
-	$.each($('#slider-wrap ul li'), function() { 
-	   //set its color
-	   var c = $(this).attr("data-color");
-	   $(this).css("background",c);
-	   
-	   //create a pagination
-	   var li = document.createElement('li');
-	   $('#pagination-wrap ul').append(li);	   
-	});
-	
-	//counter
-	countSlides();
-	
-	//pagination
-	pagination();
-	
-	//hide/show controls/btns when hover
-	//pause automatic slide when hover
-	$('#slider-wrap').hover(
-	  function(){ $(this).addClass('active'); clearInterval(autoSlider); }, 
-	  function(){ $(this).removeClass('active'); autoSlider = setInterval(slideRight, 3000); }
-	);
-	
-	
-
-});//DOCUMENT READY
-	
-
-
-/***********
- SLIDE LEFT
-************/
-function slideLeft(){
-	pos--;
-	if(pos==-1){ pos = totalSlides-1; }
-	$('#slider-wrap ul#slider').css('left', -(sliderWidth*pos)); 	
-	
-	//*> optional
-	countSlides();
-	pagination();
+.slider ol li:hover .fa:before, .slider ol li.active .fa:before {
+  content: "\f111"
 }
+	  </style>
+	  
+	  <script>
+		  $(function() {
+    "use strict";
+    var body = $("body"),
+        active = $(".slider ol li, .slider .controll"),
+        controll = $(".slider .controll"),
+        playpause = $(".playpause"),
+        sliderTime = 1,
+        sliderWait = 3000,
+        i = 999,
+        autoRun,
+        stop = false;
+    // Reset
+    $(".slider ul li:first").css("left", 0);
+    // Run Slider
+    function runSlider(what) {
+        what.addClass("active").siblings("li, span").removeClass("active");
+    }
+    // slider gsap
+    function gsapSlider(whose, left) {
+        i++;
+        if (whose.hasClass("active")) {
+            TweenMax.fromTo(
+                ".slider ul li.active",
+                sliderTime,
+                { zIndex: i, left: left },
+                { left: 0 }
+            );
+        }
+    }
+    // Active
+    active.on("click", function() {
+        runSlider($(this));
+    });
+    // Arrow left
+    controll.first().on("click", function() {
+        var slide = $(".slider ul li.active, .slider ol li.active").is(
+            ":first-of-type"
+        )
+            ? $(".slider ul li:last, .slider ol li:last")
+            : $(".slider ul li.active, .slider ol li.active").prev("li");
+        runSlider(slide);
+        gsapSlider(slide, "100%");
+    });
+    // Arrow right
+    controll.last().on("click", function() {
+        var slide = $(".slider ul li.active, .slider ol li.active").is(
+            ":last-of-type"
+        )
+            ? $(".slider ul li:first, .slider ol li:first")
+            : $(".slider ul li.active, .slider ol li.active").next("li");
+        runSlider(slide);
+        gsapSlider(slide, "-100%");
+    });
+    // Point
+    $(".slider ol li").on("click", function() {
+        var start = $(".slider ul li.active").index();
+        var slide = $(".slider ul li").eq($(this).index());
+        runSlider(slide);
+        var end = $(".slider ul li.active").index();
+        if (start > end) {
+            gsapSlider(slide, "100%");
+        }
+        if (start < end) {
+            gsapSlider(slide, "-100%");
+        }
+    });
+    // Auto run slider
+    function autoRunSlider() {
+        if (body.css("direction") === "ltr" && stop === false) {
+            autoRun = setInterval(function() {
+                controll.last().click();
+            }, sliderWait);
+        } else if (body.css("direction") === "rtl" && stop === false) {
+            autoRun = setInterval(function() {
+                controll.first().click();
+            }, sliderWait);
+        }
+    }
+    autoRunSlider();
+    // When hover
+    active.on("mouseenter", function() {
+        if (stop === false) {clearInterval(autoRun);}
+    });
+    active.on("mouseleave", function() {
+        if (stop === false) {autoRunSlider();}
+    });
+    // play pause click
+    playpause.on("click", function() {
+        $(this).toggleClass("fa-play-circle-o fa-pause-circle-o");
+        if (playpause.hasClass("fa-play-circle-o")) {
+            stop = true;
+            clearInterval(autoRun);
+            $(this).attr('title', 'play');
+        }
+        if (playpause.hasClass("fa-pause-circle-o")) {
+            stop = false;
+            autoRunSlider();
+            $(this).attr('title', 'pause');
+        }
+    });
+});
 
-
-/************
- SLIDE RIGHT
-*************/
-function slideRight(){
-	pos++;
-	if(pos==totalSlides){ pos = 0; }
-	$('#slider-wrap ul#slider').css('left', -(sliderWidth*pos)); 
-	
-	//*> optional 
-	countSlides();
-	pagination();
-}
-
-
-
-	
-/************************
- //*> OPTIONAL SETTINGS
-************************/
-function countSlides(){
-	$('#counter').html(pos+1 + ' / ' + totalSlides);
-}
-
-function pagination(){
-	$('#pagination-wrap ul li').removeClass('active');
-	$('#pagination-wrap ul li:eq('+pos+')').addClass('active');
-}
-      </style>
-    <!-- End of Page -->
-    
-    <!-- Modal [responsive menu] -->
-    <div id="menu" class="p-0 modal fade" role="dialog" aria-labelledby="menu" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-slideout" role="document">
-            <div class="modal-content full">
-              <style>
-                .closeIcon-2dbyjK {
-    width: 24px;
-    height: 24px;
-    color: #23272a;
-    color: var(--not-quite-black);
-                }
-                  .link-3XMvoR {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    padding: 8px 103px 8px 16px;
-    color: #23272a!important;
-    color: var(--not-quite-black);
-}
-                  .textSmall-2bq_Bu {
-    font-size: 16px;
-    line-height: 24px;
-}
-                .linkActive-LhgXW1 {
-    background: #f6f6f6!important;
-    background: var(--off-white);
-    color: #00b0f4;
-    color: var(--text-link);
-    border-radius: 8px;
-}
-                
-              </style>
-              
+	  </script>
+	  <!-- end page -->
+	  
                   <i class="newr" data-dismiss="modal">
 <svg class="closeIcon-2dbyjK" data-dismiss="modal" width="12" height="12" viewBox="0 0 12 12">
                       <g fill="none" fill-rule="evenodd" aria-hidden="true">
