@@ -3007,7 +3007,7 @@ footer .copyright p {
 
     /* #endregion Header */
 
-    /* #region Slider */
+    /* #region Slider 
 
     body .full-slider.featured .inner .left:before,
     body .full-slider.featured .inner .left:after,
@@ -3101,7 +3101,7 @@ footer .copyright p {
 
     /* #endregion General */
 
-    /* #region Slider */
+    /* #region Slider 
 
     body .slider-h-100 {
         height: calc(100vh - 50px);
@@ -3203,7 +3203,7 @@ footer .copyright p {
 
     /* #endregion Header */
 
-    /* #region Slider */    
+    /* #region Slider    
 
     body .full-slider .slide-content .inner .description, 
     body .no-slider .slide-content .inner .description {
